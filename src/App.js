@@ -16,10 +16,10 @@ class App extends Component {
          <div>
            <h2>This element has no route!</h2>
            <ul>
-             <li><Link to="/">Home</Link></li>
-             <li><Link to="/plants">Plants</Link></li>
-             <li><Link to="/animals">Animals</Link></li>
-             <li><Link to="/about">About</Link></li>
+            <li><Link to="/" className="nav">Home</Link></li>
+            <li><Link to="/plants" className="nav">Plants</Link></li>
+            <li><Link to="/animals" className="nav">Animals</Link></li>
+            <li><Link to="/about" className="nav">About</Link></li>
            </ul>
           <Route exact path="/" component={ Home } />
           <Route path="/plants" component={ Plants }/>
